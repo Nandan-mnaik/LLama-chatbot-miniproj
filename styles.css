@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Set the base styles for the app */
+body {
+    background-color: #d2e6fb; /* Secondary background color */
+    color: #000000; /* Text color */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Chat message container styling */
+.st-chat-message {
+    background-color: #f0f4ff; /* Light background for chat messages */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #0058ff; /* Primary color for border */
+}
+
+/* Different colors for user and assistant messages */
+.st-chat-message.user {
+    background-color: #cce0ff; /* User message background (lighter blue) */
+    text-align: right;
+}
+
+.st-chat-message.assistant {
+    background-color: #f0f4ff; /* Assistant message background */
+}
+
+/* Sidebar customization */
+.sidebar .css-1d391kg {
+    background-color: #0058ff; /* Primary color for the sidebar header */
+    color: white;
+}
+
+.sidebar .stSlider {
+    color: #000000;
+}
+
+/* Sidebar input styles */
+.sidebar input {
+    border: 1px solid #0058ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Button styles */
+.stButton>button {
+    background-color: #0058ff; /* Primary color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #0040d1; /* Slightly darker blue on hover */
+}
+
+/* Chat input box styling */
+.st-chat-input {
+    border: 1px solid #0058ff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Spacing between chat messages */
+.st-chat-message {
+    margin-bottom: 15px;
+}
